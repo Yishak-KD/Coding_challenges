@@ -1,0 +1,22 @@
+#!/usr/bin/node
+
+let fruits_details = [
+        {
+            fruit_name: "Apple",
+            fruit_color: "Red",
+        },
+        {
+            fruit_name: "Pomegranate",
+            fruit_color: "Red",
+        },
+        {
+            fruit_name: "Banana",
+            fruit_color: "Yellow",
+        },
+        {
+            fruit_name: "Grapes",
+            fruit_color: "Green",
+        },
+    ];
+  
+console.log(fruits_details);
