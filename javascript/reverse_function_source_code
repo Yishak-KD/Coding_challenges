@@ -1,0 +1,15 @@
+#!/usr/bin/node
+
+/* A function that returns a reverse of a given array
+ *
+ *
+*/
+
+let reverse = (a) => {
+    let new1 = []
+    for (let i = a.length - 1; 0 <= i; i--) {
+        new1.push(a[i]);
+    }
+    console.log(new1)
+}
+reverse([10, 20, 30, 40]);
