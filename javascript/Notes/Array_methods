@@ -1,0 +1,12 @@
+#!/usr/bin/node
+// These are notes on array methods like Foreach, filter, reduce, find and map
+
+const people = [
+    { name: 'bob', age: 20, position: 'developer' },
+    { name: 'peter', age: 25, position: 'engineer' },
+    { name: 'suzy', age: 30, position: 'doctor' },
+];
+
+people.forEach((item) => {
+    console.log(item.name.toUpperCase());
+})
