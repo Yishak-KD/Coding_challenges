@@ -1,4 +1,4 @@
-// These are notes on array methods like Foreach, filter, reduce, find and map
+These are notes on array methods like Foreach, filter, reduce, find and map.
 
 const people = [
     { name: 'bob', age: 20, position: 'developer' },

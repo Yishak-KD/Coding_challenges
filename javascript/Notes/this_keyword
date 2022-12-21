@@ -1,7 +1,6 @@
-#!/usr/bin/node
-// An object has a property (which clarifies about the object) and we have method (which adds behaviour to the object), we add a behaviour to an object using function
+An object has a property (which clarifies about the object) and we have method (which adds behaviour to the object), we add a behaviour to an object using function
 
-// this keyword in JavaScript represents the current object property
+this keyword in JavaScript represents the current object property
 
 let laptop = {
     cpu: 'i9',
