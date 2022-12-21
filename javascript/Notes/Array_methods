@@ -1,4 +1,3 @@
-#!/usr/bin/node
 // These are notes on array methods like Foreach, filter, reduce, find and map
 
 const people = [
