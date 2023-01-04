@@ -1,5 +1,16 @@
 #!/usr/bin/node
 
+/** Arrays are used to store multiple values in a single variable. This is compared to a variable that can store only one value. Each item in an array has a number attached to it, called a numeric index, that allows you to access it. In JavaScript, arrays start at index zero and can be manipulated with various methods
+ *
+ * An array is an object that can store multiple values at once. For example, const words = ['hello', 'world', 'welcome']; Here, words is an array.
+ *
+ * An array is a collection of similar types of data. For example, if we want to store the names of 100 people then we can create an array of the string type that can store 100 names. String[] array = new String[100]; Here, the above array cannot store more than 100 names.
+ *
+ * In JavaScript, an object is a standalone entity, with properties and type. Compare it with a cup, for example. A cup is an object, with properties. A cup has a color, a design, weight, a material it is made of, etc. The same way, JavaScript objects can have properties, which define their characteristics.
+ *
+ * Both objects and arrays are considered “special” in JavaScript. Objects represent a special data type that is mutable and can be used to store a collection of data (rather than just a single value). Arrays are a special type of variable that is also mutable and can also be used to store a list of values.
+ */
+
 let fruits_details = [
         {
             fruit_name: "Apple",
